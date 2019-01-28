@@ -1,4 +1,4 @@
-/// @desc move(collision_object)
+/// @desc direction_move_bounce(collision_object)
 /// @param collision_object
 var collision_object = argument0;
 
@@ -8,7 +8,7 @@ if (place_meeting(x + xspeed, y, collision_object)) {
 	while (not place_meeting(x + sign(xspeed), y, collision_object)) {
 		x += sign(xspeed);
 	}
-	xspeed = 0;
+	xspeed = -(xspeed / 4);
 }
 
 x += xspeed;
@@ -19,7 +19,10 @@ if (place_meeting(x, y + yspeed, collision_object)) {
 	while (not place_meeting(x, y + sign(yspeed), collision_object)) {
 		y += sign(yspeed);
 	}
-	yspeed = 0;
+	yspeed = -(yspeed / 4);
+	if (abs(yspeed) < 2) {
+		yspeed = 0;
+	}
 }
 
 y += yspeed;

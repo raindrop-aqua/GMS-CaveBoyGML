@@ -98,14 +98,50 @@ switch (state) {
 	#endregion
 	#region Door state
 	case player_state.door:
+		sprite_index = s_player_exit;
+		// Fade out
+		if (image_alpha > 0) {
+			image_alpha -= 0.01;
+		} else {
+			room_goto_next();
+		}	
 		break;
 	#endregion
 	#region Hurt state
 	case player_state.hurt:
+		sprite_index = s_player_hurt;
+		// Change direction as we fly around
+		if (xspeed != 0) {
+			image_xscale = sign(xspeed);
+		}
+		if (!place_meeting(x, y + 1, o_solid)) {
+			yspeed += gravity_acceleration;
+		} else {
+			yspeed = 0;
+			apply_friction(acceleration);
+		}
+		direction_move_bounce(o_solid);
+		
+		// change back to the other states
+		if (xspeed == 0 and yspeed == 0) {
+			// check health
+			if (o_player_stats.hp <= 0) {
+				state = player_state.death;
+			} else {
+				image_blend = c_white;
+				state = player_state.moving;
+			}
+		}
+		
 		break;
 	#endregion
 	#region Death state
 	case player_state.death:
+		with (o_player_stats) {
+			hp = max_hp;
+			supphires = 0;
+		}
+		room_restart();
 		break;	
 	#endregion
 }
