@@ -1,7 +1,7 @@
 /// @description Execute the state
 
 switch (state) {
-	#region Move Right
+	#region Move Right state
 	case snake_state.move_right:
 		var wall_at_right = place_meeting(x + 1, y, o_solid);
 		var ledge_at_right = !position_meeting(bbox_right + 1, bbox_bottom + 1, o_solid);
@@ -13,7 +13,7 @@ switch (state) {
 		x += 1;
 		break;
 	#endregion
-	#region Move Left
+	#region Move Left state
 	case snake_state.move_left:
 		var wall_at_left = place_meeting(x - 1, y, o_solid);
 		var ledge_at_left = !position_meeting(bbox_left - 1, bbox_bottom + 1, o_solid);
