@@ -11,3 +11,8 @@ enum snake_state {
 	move_right,
 	move_left
 }
+
+enum bat_state {
+	idle,
+	chase
+}

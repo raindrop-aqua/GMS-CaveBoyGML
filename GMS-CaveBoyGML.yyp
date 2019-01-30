@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "103a8357-c1c0-43a5-9b86-42431e8a39f1",
+            "Value": {
+                "id": "e5b520e9-2414-4016-8c49-cece8b8053f8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_bat_idle\/s_bat_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14574144-245d-4e4f-b562-7a421207ced7",
             "Value": {
                 "id": "ecca52c7-54b8-4818-9c27-ddf4049106f0",
@@ -172,6 +191,25 @@
             }
         },
         {
+            "Key": "200a106b-3b5d-4c31-93c1-c3dfc2800f5a",
+            "Value": {
+                "id": "3d28cb1f-208b-480f-91ed-2276d2e49c9d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_bat\/o_bat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "20a1139d-ed9a-424f-9fef-6070ac4975a8",
             "Value": {
                 "id": "8ff57363-8ac6-490a-ab34-dabc831f2252",
@@ -206,6 +244,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_lava\/s_lava.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ba30053-10d1-4dc4-af2b-5d55ef49c844",
+            "Value": {
+                "id": "0368a652-77e7-4745-8e9d-f9a24572008a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_bat_fly\/s_bat_fly.yy",
                 "resourceType": "GMSprite"
             }
         },
