@@ -780,6 +780,25 @@
             }
         },
         {
+            "Key": "7d9001e3-7b51-47ec-b342-032f0ca7b296",
+            "Value": {
+                "id": "3ed4cb20-c388-4e62-971b-7a4460d589be",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_snake\/o_snake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ddff5f2-8410-4af9-9427-4cee531c2c45",
             "Value": {
                 "id": "6373f89d-5b68-4242-b04c-aaefd10e4820",
@@ -796,6 +815,25 @@
                 ],
                 "resourcePath": "sprites\/s_solid\/s_solid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8643b8d6-1516-4f88-84f9-469b54dda691",
+            "Value": {
+                "id": "063517bc-5774-48c3-99fb-6abe9efb79f3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/8643b8d6-1516-4f88-84f9-469b54dda691.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1252,6 +1290,25 @@
                 ],
                 "resourcePath": "objects\/o_entrance\/o_entrance.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "daa0ae62-ba60-4673-be5c-680680a133b9",
+            "Value": {
+                "id": "f79a90ed-16cf-4086-b334-487c19f44e40",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_snake\/s_snake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

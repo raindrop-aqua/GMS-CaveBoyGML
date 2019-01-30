@@ -6,3 +6,8 @@ enum player_state {
 	hurt,
 	death
 }
+
+enum snake_state {
+	move_right,
+	move_left
+}
