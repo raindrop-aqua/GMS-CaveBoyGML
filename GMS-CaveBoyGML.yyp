@@ -1141,6 +1141,25 @@
             }
         },
         {
+            "Key": "b0265657-3df3-495b-9c27-1cb04f14ba85",
+            "Value": {
+                "id": "8a51fcce-2e71-4975-b2a5-ff9bb9f0844b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy_parent\/o_enemy_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b0e3ce7c-1608-48cc-a18a-8a39fce75302",
             "Value": {
                 "id": "c6194ab7-6eaf-41c9-b55f-99f552305cfb",
@@ -1255,6 +1274,25 @@
             }
         },
         {
+            "Key": "c3318fd6-4d24-4ca0-a873-cac6dad679a3",
+            "Value": {
+                "id": "db68f7c1-7344-4edb-8f18-286901bf03d2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/a_bat\/a_bat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c33d5559-ae73-47b6-8748-584ba8d6bbd6",
             "Value": {
                 "id": "02edd0b1-9c21-43b1-9b25-b30c01522d98",
@@ -1366,6 +1404,25 @@
                 ],
                 "resourcePath": "sprites\/s_snake\/s_snake.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "defe3749-eb8f-41e4-a619-11a9fb27bda7",
+            "Value": {
+                "id": "34d16bd4-f600-4042-ac9a-b14152bf2f60",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/a_snake\/a_snake.yy",
+                "resourceType": "GMSound"
             }
         },
         {
