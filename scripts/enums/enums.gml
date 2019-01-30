@@ -16,3 +16,8 @@ enum bat_state {
 	idle,
 	chase
 }
+
+enum spider_state {
+	idle,
+	jump
+}
