@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "o_boss",
     "eventList": [
-        
+        {
+            "id": "c33312cf-37bf-4d6e-97ee-7fdc80cd800d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "14bba84b-f413-4a55-9e60-d023bb288bbd"
+        },
+        {
+            "id": "4a0dc2e1-f89d-4b09-b960-706c5ac5e12c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "14bba84b-f413-4a55-9e60-d023bb288bbd"
+        },
+        {
+            "id": "8a1b5bff-c87f-4774-9fed-5b7425995f7d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "95eb6e9c-c378-411f-9e74-26f6fb75f3f6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "14bba84b-f413-4a55-9e60-d023bb288bbd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,8 +51,93 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "283b66dc-18ed-4ba4-a1ec-7a6aab0e5284",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "xspeed",
+            "varType": 0
+        },
+        {
+            "id": "f044095b-eaa5-4b41-b0bf-e79a38b91a85",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "yspeed",
+            "varType": 0
+        },
+        {
+            "id": "fd615dec-1bac-4633-ac3d-807cbb45e8c6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "edd280c4-d381-4c7b-be3d-899579e6542a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "boss_state.idle;",
+            "varName": "state",
+            "varType": 4
+        },
+        {
+            "id": "da6ef0ae-4906-45c2-b425-2f3ca55b0074",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "128",
+            "varName": "sight",
+            "varType": 0
+        },
+        {
+            "id": "d4a97f3f-deed-4aaa-81aa-5ac68ed015d9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "16",
+            "varName": "max_speed",
+            "varType": 0
+        }
+    ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "27025db4-28b7-41e8-bc63-517534509003",
     "visible": true
 }

@@ -21,3 +21,11 @@ enum spider_state {
 	idle,
 	jump
 }
+
+enum boss_state {
+	idle,
+	lift,
+	chase,
+	smash,
+	stall
+}
