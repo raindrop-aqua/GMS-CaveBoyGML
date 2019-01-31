@@ -58,25 +58,6 @@
             }
         },
         {
-            "Key": "0176eca4-612e-4ed0-9b47-f27da719cb77",
-            "Value": {
-                "id": "160f1a77-9e40-44de-8bf2-3bb27f9e423b",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/r_two\/r_two.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "01aee2a5-9b1f-455d-8035-57eefc941c1c",
             "Value": {
                 "id": "8880ff43-5e98-40c7-98e5-27bacdefb50c",
@@ -606,6 +587,25 @@
                 ],
                 "resourcePath": "sounds\/a_exit\/a_exit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "59bef391-8656-4e4d-bba0-3ee9e1aa18e1",
+            "Value": {
+                "id": "735e913e-5a15-4893-ae99-f63e6c1e9991",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_two\/r_two.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
